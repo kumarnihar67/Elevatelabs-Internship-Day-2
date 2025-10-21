@@ -17,9 +17,8 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                echo 'Installing dependencies & running tests...'
-                bat 'pip install -r requirements.txt'
-                bat 'pytest test_app.py'
+                echo 'Running tests inside Docker container...'
+                bat 'docker run --rm python-flask-app pytest test_app.py'
             }
         }
 
@@ -44,3 +43,4 @@ pipeline {
         }
     }
 }
+
