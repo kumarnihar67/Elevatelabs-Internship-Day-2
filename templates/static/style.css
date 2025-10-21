@@ -1,26 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
     margin: 0;
     padding: 0;
+    background: linear-gradient(270deg, #0f2027, #203a43, #2c5364, #0f2027);
+    background-size: 800% 800%;
+    animation: sciFiGradient 15s ease infinite;
+    color: #c0cde9; /* softer text color for sci-fi */
+}
+
+@keyframes sciFiGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .container {
     text-align: center;
     margin-top: 100px;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgba(10, 10, 30, 0.8);
     border-radius: 10px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    color: #00ffff;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
 }
 
 p {
-    color: #34495e;
+    color: #a0e7ff;
+    text-shadow: 0 0 5px #00ffff;
 }
