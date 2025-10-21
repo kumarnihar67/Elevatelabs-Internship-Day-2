@@ -42,5 +42,10 @@ This project demonstrates how to create a simple Continuous Integration and Cont
 
 <img width="1920" height="1080" alt="task2 4 (2)" src="https://github.com/user-attachments/assets/acc09b24-6ca6-4630-b4df-63e332ee0088" />
 
+<img width="1920" height="1080" alt="task2 4" src="https://github.com/user-attachments/assets/fa926ecc-bceb-4e27-b3ad-4c0c71a987c0" />
+
+<img width="1920" height="1080" alt="task2 1" src="https://github.com/user-attachments/assets/2ac4ef11-aaf4-4779-9b34-246098ad2b19" />
+
+
 
 ---
