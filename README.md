@@ -17,10 +17,8 @@ This project demonstrates how to create a simple Continuous Integration and Cont
 ## Steps to Implement the Pipeline
 
 1. **Install Jenkins**  
-   Set up Jenkins on my local machine .
+   Set up Jenkins on my local machine and install github plugin in my jenkin using manage plugin.
 
-   ![Jenkins Setup](https://www.jenkins.io/doc/book/resources/img/jenkins-dashboard.png)  
-   *Jenkins Dashboard*
 
 2. **Create a Jenkinsfile**  
    Add a 'Jenkinsfile' to my project repository with the pipeline script defining stages such as `build`, `test`, and `deploy`.
